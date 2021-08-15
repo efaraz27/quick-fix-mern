@@ -1,0 +1,44 @@
+.why-us{
+    background-color: #d1c4e9;
+    margin-top: 60px;
+    padding: 100px 0px;
+    transform: skew(0deg,-10deg);
+}
+
+.why-us-content{
+    transform: skew(0deg,10deg);
+}
+
+.why-us-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px 0px
+}
+
+.why-us-card{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    padding: 20px;
+}
+
+.why-us .header{
+    font-size: 50px;
+    text-align: center;
+}
+
+.why-us-card .desc{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.why-us-card img{
+    width: 100px;
+}
+
+.why-us-card-text{
+    display: flex;
+    flex-direction: column;
+}

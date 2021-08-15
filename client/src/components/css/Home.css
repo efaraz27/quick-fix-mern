@@ -1,0 +1,160 @@
+.home{
+    min-height: 80vh;
+    overflow: hidden;
+    height: 100%;
+}
+  
+.slogan{
+    font-weight: 900;
+    font-size: 120px;
+    color: #000035;
+    width: 35vw;
+    padding-top: 100px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image-front img{
+    width: 35vw;
+    padding-top: 50px;
+}
+
+.video{
+    overflow: hidden;
+    max-width: 100vw;
+    display: inline-block;
+}
+  
+  #videoBG {
+    position: absolute;
+    filter: blur(1px);
+    width: 99.1vw;
+    overflow: hidden;
+    top: 0;
+    padding: none;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: translateY(-400px) ;
+}
+
+
+.check-points{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-around left;
+}
+
+.point{
+    font-size: 30px;
+    padding: 25px 75px ;
+}
+
+@media screen and (max-width:1800px) {
+    .slogan{
+        font-size: 90px;
+    }
+    .check-points .point{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    #videoBG{
+        transform: translateY(-400px);
+        width: 99vw;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .slogan{
+        font-size: 70px;
+    }
+    
+    #videoBG{
+        transform: translateY(-300px);
+        width: 98.9vw;
+    }
+}
+
+@media screen and (max-width:1300px){
+    #videoBG{
+        width: 98.8vw;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .slogan{
+        font-size: 50px;
+    }
+    #videoBG{
+        transform: translateY(-200px);
+        width: 98.7vw;
+    }
+}
+
+@media screen and (max-width:1100px){
+    #videoBG{
+        width: 98.5vw;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .slogan{
+        font-size: 50px;
+    }
+    #videoBG{
+        transform: translateY(-50px);
+        width: 98.3vw;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .slogan{
+        font-size: 40px;
+        padding-top: 90px;
+    }
+    #videoBG{
+        transform: translateY(-40px);
+        width: 98vw;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .slogan{
+        font-size: 30px;
+        padding-top: 85px;
+    }
+    #videoBG{
+        transform: scale(120%) translateY(-40px);
+        width: 90.5vw;
+    }
+}
+
+
+@media screen and (max-width:430px) {
+    .slogan{
+        font-size: 25px;
+        padding-top: 75px;
+    }
+    #videoBG{
+        transform: scale(120%) translateY(-20px);
+    }
+    
+}
+
+
+@media screen and (max-width:360px){
+    #videoBG{
+        transform: scale(120%) translateY(0px);
+    }
+}
+  

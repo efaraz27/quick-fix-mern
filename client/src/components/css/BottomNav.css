@@ -1,0 +1,48 @@
+.bottom-nav{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    justify-content: space-evenly center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom-nav-link-wa{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: center;
+    background-color: #81c784;
+    transition: background-color 0.3s;
+}
+
+.bottom-nav-link-ph{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: center;
+    background-color: #4fc3f7;
+    transition: background-color 0.3s;
+}
+
+.bottom-nav-link-wa:hover{
+    cursor: pointer;
+    background-color: #43a047;
+}
+
+.bottom-nav-link-ph:hover{
+    cursor: pointer;
+    background-color: #039be5;
+}
+
+@media screen and (max-width:615px){
+    .link-text{
+        font-size: 15px;
+    }
+}
+

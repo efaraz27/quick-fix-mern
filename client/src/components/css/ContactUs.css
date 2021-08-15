@@ -1,0 +1,26 @@
+.contact-us {
+    margin: 150px 0px;
+}
+
+.contacts-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px 0px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact .icon{
+    transform: scale(200%);
+}
+
+.contact .text{
+    font-size: 25px;
+    padding: 50px;
+}
